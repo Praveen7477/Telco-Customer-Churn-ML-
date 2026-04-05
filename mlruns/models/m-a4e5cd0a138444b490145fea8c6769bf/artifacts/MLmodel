@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/Source/Documents/MLops/Telco-Customer-Churn-ML-main/mlruns/348049978955464409/models/m-a4e5cd0a138444b490145fea8c6769bf/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.7
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.1.2
+mlflow_version: 3.10.1
+model_id: m-a4e5cd0a138444b490145fea8c6769bf
+model_size_bytes: 439433
+model_uuid: m-a4e5cd0a138444b490145fea8c6769bf
+prompts: null
+run_id: 92c39c8b2e624607a6da0b92915eaf32
+utc_time_created: '2026-04-04 14:38:39.342233'
