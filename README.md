@@ -228,10 +228,10 @@ All training runs are logged with:
 - The serialized XGBoost model as an artifact
 
 To view the MLflow UI locally:
-```bash
-mlflow ui
+```powershell
+C:\ProgramData\Anaconda3\python.exe -m mlflow ui --backend-store-uri "file:///C:/Users/Source/Documents/MLops/Telco-Customer-Churn-ML--main/mlruns"
 ```
-Then open [http://localhost:5000](http://localhost:5000)
+Then open [http://localhost:5000](http://localhost:5000). If `python` opens the Microsoft Store stub on Windows, use the full interpreter path above or add your real Python install to `PATH`.
 
 ---
 
